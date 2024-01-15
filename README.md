@@ -1,7 +1,12 @@
 # portifolio-site
 
-hexa: https://www.remessaonline.com.br/blog/tabela-de-cores-html-veja-os-codigos-para-aplicar-cores-nas-tags-html/
+hexa: https://site112.com/
 
-#FFD700	Gold
+Esquema de cores triádicas: (para detalhes se for necessário)
 
-#87CEEB	SkyBlue
+- #015522 (Verde)
+
+- #220155 (Azul)
+
+- #552201 (vermelho)
+
