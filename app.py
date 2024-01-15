@@ -5,7 +5,6 @@ from flask import Flask, render_template, redirect
 app = Flask(__name__) # desse arquivo principal
 
 @app.route('/') # uma página só 
-
 def index():
     return render_template('index.html') 
 
