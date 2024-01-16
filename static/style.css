@@ -94,7 +94,7 @@ html, body{
     margin-left: 300px;
 }
 
-section#inicio{
+section#home{
     background-image: url("./img/3d-abstrato.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -105,13 +105,14 @@ section#inicio{
     height: 100vh;
 }
 
-section#inicio h2{
+section#home h2{
     font-size: 6rem;
+
 }
 
-section#inicio span#subtitle {
+section#home span#subtitle {
     text-wrap: nowrap;
-    margin-right: 8rem;
+    margin-right: 5rem;
     font-size: 1.5rem;
 }
 
@@ -119,12 +120,63 @@ section#inicio span#subtitle {
     text-shadow: 4px 4px 10 px #5f5858;
 }
 
-section#inicio div#drag {
+section#home div#drag {
     width: 9rem;
 }
 
-section#inicio div#drag a {
+section#home div#drag a {
+  text-wrap: nowrap;
   text-decoration: none;
   color: #08D9D6;
-
 }
+
+i.menu-mobile {
+    position: fixed;
+    color: #fff;
+    background-color: #252A34;
+    right: 1rem;
+    top: 1rem;
+    font-size: 1.5rem;
+    border-radius: 4rem;
+    cursor: pointer;
+    z-index: 10;
+    width: 45px;
+    height: 45px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-nav-active {
+    overflow: hidden;
+}
+
+.menu-nav-active #header {
+    left: 0;
+}
+
+/* 
+midia queries: 
+Um propriedade dentro do css que vai ajudar a gente definir 
+que a partir de uma altura ou largura da tela se comporte assim: 
+ */
+
+ @media(max-width: 1024px) {
+    #header{
+        left: -300px;
+
+    }
+    i.menu-mobile{
+        display: flex;
+    }
+    section#home h2{
+        font-size: 3.5rem;
+    }
+    section#home span#subtitle{
+        margin-right: 0;
+        font-size: 1rem;
+    }
+    #main{
+        margin-left: 0;
+    }
+ }
