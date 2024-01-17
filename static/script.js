@@ -4,7 +4,6 @@ const body = document.querySelector("body");
 
 // if ternário
 menuMobile.addEventListener("click", () => {
-    alert("entrou no evento")
     menuMobile.classList.contains("bi-list")
     ? menuMobile.classList.replace("bi-list", "bi-x")
     : menuMobile.classList.replace("bi-x","bi-list");

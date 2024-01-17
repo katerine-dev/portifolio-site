@@ -18,7 +18,7 @@ html, body{
     padding: 0 15px;
     z-index: 9997;
 }
-
+/* Profile */
 #header .profile img{
     margin: 15px auto;
     display: block;
@@ -51,7 +51,7 @@ html, body{
 #header .profile .social-links a:hover{
     background: #149ddd;
 }
-
+/* menu */
 .nav-menu{
     padding: 1.5rem;
 }
@@ -93,7 +93,7 @@ html, body{
 #main{
     margin-left: 300px;
 }
-
+/* home */
 section#home{
     background-image: url("./img/3d-abstrato.jpg");
     background-repeat: no-repeat;
@@ -129,7 +129,7 @@ section#home div#drag a {
   text-decoration: none;
   color: #08D9D6;
 }
-
+/* menu bottom */
 i.menu-mobile {
     position: fixed;
     color: #fff;
@@ -180,3 +180,20 @@ que a partir de uma altura ou largura da tela se comporte assim:
         margin-left: 0;
     }
  }
+
+/* scrollbar */
+/* pseudo elemento */
+*::-webkit-scrollbar{ 
+    width: 6px;
+}
+
+*::-webkit-scrollbar-track{
+    width: 12px;
+    box-shadow: insert 0 0 .3rem #00000050;
+    background-color: #fff;
+}
+
+*::-webkit-scrollbar-thumb{
+    background-color: #08D9D6;
+    border-radius: 10%;
+}

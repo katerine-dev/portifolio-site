@@ -12,10 +12,10 @@
 </head>
 
 <body>
-
+    <!-- MENU BOTTOM -->
     <i class="bi bi-list menu-mobile"></i>
 
-
+    <!-- MENU -->
     <aside id="header">
         <section class="profile">
             <img src="../static/img/perfil.jpg" alt="Foto da Katerine">
@@ -28,19 +28,18 @@
                     <i class="bi bi-github"></i>
                 </a>
             </div>
-
         </section>
         
         <nav id='navbar' class="nav-menu">
             <ul class="nav flex-column">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">
+                  <a class="nav-link active" aria-current="page" href="#home">
                     <i class="bi bi-house" aria-hidden="true">
                     </i>
                     Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">
+                  <a class="nav-link" href="#about">
                     <i class="bi bi-person" aria-hidden="true">
                     </i>
                     About</a>
@@ -70,11 +69,12 @@
                         Contact</a>
                 </li>
               </ul>
-
         </nav>
     </aside>
 
+    <!-- *PAGES* -->
     <main id="main">
+    <!-- HOME -->
         <section id="home" class="row m-0 p-0">
             <div class="col-md-5 d-flex justify-content-center align-items-center flex-column">
                 <h2 class="text-shadow">Katerine Witkoski</h2>
@@ -85,11 +85,87 @@
                 <div id="drag" class="d-flex align-items-center">
                     <i class="bi bi-arrow-down pe-2 fs-2" arria-hidden="true">
                     </i>
-                    <a href="">Drag for more</a>
+                    <a href="#about">Drag for more</a>
                 </div>
             </div>
         </section>
 
+    <!-- ABOUT -->
+        <section class="container mt-5" id="about">
+            <div class="row w-100">
+                <div class="col-md-12">
+                    <h2 class="pt-3">About me!</h2>
+                    <p>
+                        Em 2022 me formei em Direito e em um dos meus estágios eu pude ter a oportunidade de ingressar um pouco na área de tecnologia. 
+                        Tive muita experiência com uma área de pesquisa jurimétrica na qual usávamos programação para análise de dados.  
+                        E a partir desse momento me encontrei nessa nova área. Hoje tenho muito entusiasmo na área de tecnologia e programação, 
+                        desde desse meu estágio fui muito curiosa sobre o assunto e hoje busco me especializar cada vez mais. 
+                    </p>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <img class= "img-fluid shadow" src="../static/img/perfil.jpg" alt="Perfil">
+                </div>
+                <div class="col-md-8">
+                    <h3>Computer science student</h3>
+                    <p>
+                        Atualmente sou graduanda em Ciência da Computação na Universidade Anhembi Morumbi (São Paulo - Paulista - Presencial). 
+                        Estou finalizando o terceiro semestre, no período matutino. 
+                        Tenho experiencia em resolução de problemas com programação em R, Python, Java, Javascript, SQL (MySQL, MariaDB, PostgreSQL).  
+                        Ambientalizada com sistema de controle de versão git (github).
+                    </p>
+
+                    <div class="row mt-3 mb-3">
+                        <div class="col-md-6">
+                            <ul class="list-group list-group-flush fs-5">
+                                <li class="list-group-item">
+                                    Título: <span class="fw-lighter">texto
+                                    </span>
+                                </li>
+                                <li class="list-group-item">
+                                    Título: <span class="fw-lighter">texto
+                                    </span>
+                                </li>
+                                <li class="list-group-item">
+                                    Título: <span class="fw-lighter">texto
+                                    </span>
+                                </li>
+                                <li class="list-group-item">
+                                    Título: <span class="fw-lighter">texto
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="list-group list-group-flush fs-5">
+                                <li class="list-group-item">
+                                    Título: <span class="fw-lighter">texto
+                                    </span>
+                                </li>
+                                <li class="list-group-item">Site: <a href="http://" target="_blank"
+                                    class = "fw-lighter text-decoration-none link-dark">
+                                    links.kate</a>
+                                </li>
+                                <li class="list-group-item">
+                                    Título: <span class="fw-lighter">texto
+                                    </span>
+                                </li>
+                                <li class="list-group-item">
+                                    Título: <span class="fw-lighter">texto
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p>
+                        Atualmente sou graduanda em Ciência da Computação na Universidade Anhembi Morumbi (São Paulo - Paulista - Presencial). 
+                        Estou finalizando o terceiro semestre, no período matutino. 
+                    </p>
+                </div>
+            </div>
+        </section>
+<!-- ** -->
     </main>
     
     <script src="../static/bootstrap/js/bootstrap.bundle.min.js"></script>
