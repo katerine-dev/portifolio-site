@@ -200,7 +200,7 @@ que a partir de uma altura ou largura da tela se comporte assim:
 }
 
 *::-webkit-scrollbar-track{
-    width: 12px;
+    width: 6px;
     box-shadow: insert 0 0 .3rem #00000050;
     background-color: #fff;
 }
@@ -214,3 +214,14 @@ que a partir de uma altura ou largura da tela se comporte assim:
     background-color:#eff5ff;
 }
 
+/* definição da sessão education */
+
+.fa-ul {
+    padding-left: 0;
+    margin-left: 0.8rem;
+    list-style-type: none;
+}
+
+ul-interests, .ul-edu {
+    text-align: left;
+}
