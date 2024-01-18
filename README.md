@@ -1,6 +1,6 @@
 # portifolio-site
 
-Paleta: https://colorhunt.co/palette/08d9d6252a34ff2e63eaeaea
+This project is an exercise to learn front-end development.
 
 
 Enabling virtual environment:
@@ -17,3 +17,5 @@ Installing project dependencies:
 ```sh
 poetry install
 ```
+
+Pallete: https://colorhunt.co/palette/08d9d6252a34ff2e63eaeaea
