@@ -225,3 +225,24 @@ que a partir de uma altura ou largura da tela se comporte assim:
 ul-interests, .ul-edu {
     text-align: left;
 }
+
+/* Configuração dos cards */
+
+.btn-primary.stretched-link {
+    background-color: #08D9D6; 
+    border-color: #08D9D6; 
+    color: #fff; 
+
+}
+
+.card {
+    margin-bottom: 20px;
+    height: 18rem;  
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+} 
