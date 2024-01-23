@@ -232,12 +232,6 @@ ul-interests, .ul-edu {
     background-color: #08D9D6; 
     border-color: #08D9D6; 
     color: #fff; 
-
-}
-
-.card {
-    margin-bottom: 20px;
-    height: 18rem;  
 }
 
 .card-body {
@@ -245,4 +239,27 @@ ul-interests, .ul-edu {
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
+    margin-left: 1rem;
 } 
+
+.carousel-control-prev{
+    margin-left: -5rem;
+}
+
+.carousel-control-next{
+    margin-right: -5rem;
+}
+
+.carousel-indicators{
+    margin-bottom: -20px;
+}
+
+@media (max-width: 600px) {
+    .carousel-control-prev{
+        margin-left: 0;
+    }
+    
+    .carousel-control-next{
+        margin-right: 0;
+    }
+}

@@ -200,107 +200,131 @@
         </section>
 
         <!-- PROJECTS -->
-        <section id="project" class="mt-5">
+        <section class="container mt-5" id="project" >
             <div class="container pb-5 pt-5">
                 <h2 class="pt-4">Projects</h2>
-                <div class="row pt-4">
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <div class="card-body">
-                                <div>
-                                    <h5 class="card-title">queridodiario</h5>
-                                    <h6 class="card-subtitle mb-2 text-body-secondary">R</h6>
-                                    <p class="card-text">This package is part of a project called Querido Diário by Open
-                                        Knowledge Brasil.</p>
+
+                <div id="carouselProjects" class="carousel carousel-dark slide mt-5">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselProjects" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselProjects" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <!-- Cards -->
+                            <div class="row row-cols-1 row-cols-md-3 g-4">
+                                <div class="col">
+                                    <div class="card-body">
+                                        <h5 class="card-title">queridodiario</h5>
+                                        <h6 class="card-subtitle mb-2 text-body-secondary">R</h6>
+                                        <p class="card-text">This package is part of a project called Querido Diário by
+                                            Open
+                                            Knowledge Brasil.</p><br/><br/><br/>
+                                        <div class="d-flex justify-content-center">
+                                            <a target="_blank" href="https://github.com/katerine-dev/queridodiario"
+                                                class="btn btn-primary stretched-link"><i
+                                                    class="bi bi-link-45deg"></i></a>
+                                        </div>
+                                    </div>
                                 </div>
-                                <a target="_blank" href="https://github.com/katerine-dev/queridodiario"
-                                    class="btn btn-primary stretched-link">See more here</a>
+                                <div class="col">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Testcalculadora</h5>
+                                        <h6 class="card-subtitle mb-2 text-body-secondary">Java</h6>
+                                        <p class="card-text">Este repositório contém testes automatizados end-to-end
+                                            para
+                                            uma
+                                            calculadora online,
+                                            desenvolvida utilizando Selenium WebDriver, Java, Maven e JUnit.</p>
+                                        <div class="d-flex justify-content-center">
+                                            <a target="_blank" href="https://github.com/katerine-dev/TestCalculadora"
+                                                class="btn btn-primary stretched-link"><i
+                                                    class="bi bi-link-45deg"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card-body">
+                                        <h5 class="card-title">prototipoBD</h5>
+                                        <h6 class="card-subtitle mb-2 text-body-secondary">Java</h6>
+                                        <p class="card-text"> The Bibioteca Digital System is an application developed
+                                            to help with
+                                            management of book availability and book reservation.</p>
+                                        <div class="d-flex justify-content-center">
+                                            <a target="_blank" href="https://github.com/katerine-dev/prototipoBD"
+                                                class="btn btn-primary stretched-link"><i
+                                                    class="bi bi-link-45deg"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <div class="row row-cols-1 row-cols-md-3 g-4">
+                                <div class="col">
+                                    <div class="card-body">
+                                        <h5 class="card-title">scraperTheoffice</h5>
+                                        <h6 class="card-subtitle mb-2 text-body-secondary">R</h6>
+                                        <p class="card-text">Scraper of the list of episodes of the series The Office
+                                            This package was produced especially for the final work of the Web Scraping
+                                            course Curso-R.</p>
+                                        <div class="d-flex justify-content-center">
+                                            <a target="_blank" href="https://github.com/katerine-dev/scraperTheoffice"
+                                                class="btn btn-primary stretched-link"><i
+                                                    class="bi bi-link-45deg"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card-body">
+                                        <h5 class="card-title">scraperRF</h5>
+                                        <h6 class="card-subtitle mb-2 text-body-secondary">Python</h6>
+                                        <p class="card-text">This project is an extension of the work carried out
+                                            together
+                                            with
+                                            ScoreEase.
+                                            The objective is to extract data from the Cadastro Nacional de Pessoas
+                                            Jurídicas
+                                            (CNPJ).</p>
+                                        <div class="d-flex justify-content-center">
+                                            <a target="_blank" href="https://github.com/katerine-dev/scraperRF"
+                                                class="btn btn-primary stretched-link"><i
+                                                    class="bi bi-link-45deg"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card-body">
+                                        <h5 class="card-title">nepiPericia</h5>
+                                        <h6 class="card-subtitle mb-2 text-body-secondary">R</h6>
+                                        <p class="card-text">Visualizations produced for project presentation at NEPI
+                                            - Núcleo de Estudos de Processos de Insolvência (PUC-SP).</p><br/><br/>
+                                        <div class="d-flex justify-content-center">
+                                            <a target="_blank" href="https://github.com/katerine-dev/nepiPericia"
+                                                class="btn btn-primary stretched-link"><i
+                                                    class="bi bi-link-45deg"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <div class="card-body">
-                                <div>
-                                    <h5 class="card-title">Testcalculadora</h5>
-                                    <h6 class="card-subtitle mb-2 text-body-secondary">Java</h6>
-                                    <p class="card-text">Este repositório contém testes automatizados end-to-end para
-                                        uma
-                                        calculadora online,
-                                        desenvolvida utilizando Selenium WebDriver, Java, Maven e JUnit.</p>
-                                </div>
-                                <a target="_blank" href="https://github.com/katerine-dev/TestCalculadora"
-                                    class="btn btn-primary stretched-link">See more here</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <div class="card-body">
-                                <div>
-                                    <h5 class="card-title">prototipoBD</h5>
-                                    <h6 class="card-subtitle mb-2 text-body-secondary">Java</h6>
-                                    <p class="card-text"> The Bibioteca Digital System is an application developed
-                                        to help with
-                                        management of book availability and book reservation.</p>
-                                </div>
-                                <a target="_blank" href="https://github.com/katerine-dev/prototipoBD"
-                                    class="btn btn-primary stretched-link">See more here</a>
-                            </div>
-                        </div>
-                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjects"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselProjects"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
 
-
-                <div class="row pt-4">
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <div class="card-body">
-                                <div>
-                                    <h5 class="card-title">scraperTheoffice</h5>
-                                    <h6 class="card-subtitle mb-2 text-body-secondary">R</h6>
-                                    <p class="card-text">Scraper of the list of episodes of the series The Office
-                                        This package was produced especially for the final work of the Web Scraping
-                                        course Curso-R.</p>
-                                </div>
-                                <a target="_blank" href="https://github.com/katerine-dev/scraperTheoffice"
-                                    class="btn btn-primary stretched-link">See more here</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <div class="card-body">
-                                <div>
-                                    <h5 class="card-title">scraperRF</h5>
-                                    <h6 class="card-subtitle mb-2 text-body-secondary">Python</h6>
-                                    <p class="card-text">This project is an extension of the work carried out together
-                                        with
-                                        ScoreEase.
-                                        The objective is to extract data from the Cadastro Nacional de Pessoas Jurídicas
-                                        (CNPJ).</p>
-                                </div>
-                                <a target="_blank" href="https://github.com/katerine-dev/scraperRF"
-                                    class="btn btn-primary stretched-link">See more here</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <div class="card-body">
-                                <div>
-                                    <h5 class="card-title">nepiPericia</h5>
-                                    <h6 class="card-subtitle mb-2 text-body-secondary">R</h6>
-                                    <p class="card-text">Visualizations produced for project presentation at NEPI
-                                        - Núcleo de Estudos de Processos de Insolvência (PUC-SP).</p>
-                                </div>
-                                <a target="_blank" href="https://github.com/katerine-dev/nepiPericia"
-                                    class="btn btn-primary stretched-link">See more here</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row mt-3 mb-3 text-center">
+                <div class="row mt-5 mb-5 text-center">
                     <p>
                         These are just some of my projects, see what I'm working on today <a target="_blank"
                             href="https://github.com/katerine-dev">here</a>.
