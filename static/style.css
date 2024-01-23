@@ -239,19 +239,18 @@ ul-interests, .ul-edu {
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
-    margin-left: 1rem;
-} 
+}
 
 .carousel-control-prev{
-    margin-left: -5rem;
+    margin-left: -7rem;
 }
 
 .carousel-control-next{
-    margin-right: -5rem;
+    margin-right: -7rem;
 }
 
 .carousel-indicators{
-    margin-bottom: -20px;
+    margin-bottom: -50px;
 }
 
 @media (max-width: 600px) {
@@ -261,5 +260,43 @@ ul-interests, .ul-edu {
     
     .carousel-control-next{
         margin-right: 0;
+    }
+}
+
+.projects {
+    margin: auto;
+    width: 80%;
+}
+
+.btn-primary{
+    background-color: #08D9D6; 
+    border-color: #08D9D6; 
+    color: #fff; 
+}
+
+/* Tornar as setas de navegação do card transparentes */
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: transparent;
+    border: none;
+    opacity: 0.1; 
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: rgba(255, 255, 255, 0.3); 
+    opacity: 1;
+}
+
+/* form de contato */
+.contact {
+    margin: auto;
+    width: 60%;
+}
+
+@media (max-width: 600px) {
+    .contact {
+        margin: auto;
+        width: 90%;
     }
 }

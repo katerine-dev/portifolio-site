@@ -79,7 +79,7 @@
     <!-- *PAGES* -->
     <main id="main">
         <!-- HOME -->
-        <section id="home" class="row m-0 p-0">
+        <section class="row m-0 p-0" id="home">
             <div class="col-md-5 d-flex justify-content-center align-items-center flex-column">
                 <h2 class="text-shadow">Hello!</h2>
                 <span id="subtitle" class="text-shadow">Call me Kate :)</span>
@@ -200,11 +200,11 @@
         </section>
 
         <!-- PROJECTS -->
-        <section class="container mt-5" id="project" >
-            <div class="container pb-5 pt-5">
-                <h2 class="pt-4">Projects</h2>
+        <section class="container mt-5" id="project">
+            <div class="container pb-5">
+                <h2 class="pt-5">Projects</h2>
 
-                <div id="carouselProjects" class="carousel carousel-dark slide mt-5">
+                <div id="carouselProjects" class="carousel carousel-dark slide mt-5 projects">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselProjects" data-bs-slide-to="0" class="active"
                             aria-current="true" aria-label="Slide 1"></button>
@@ -221,7 +221,7 @@
                                         <h6 class="card-subtitle mb-2 text-body-secondary">R</h6>
                                         <p class="card-text">This package is part of a project called Querido Diário by
                                             Open
-                                            Knowledge Brasil.</p><br/><br/><br/>
+                                            Knowledge Brasil.</p><br /><br /><br />
                                         <div class="d-flex justify-content-center">
                                             <a target="_blank" href="https://github.com/katerine-dev/queridodiario"
                                                 class="btn btn-primary stretched-link"><i
@@ -301,7 +301,7 @@
                                         <h5 class="card-title">nepiPericia</h5>
                                         <h6 class="card-subtitle mb-2 text-body-secondary">R</h6>
                                         <p class="card-text">Visualizations produced for project presentation at NEPI
-                                            - Núcleo de Estudos de Processos de Insolvência (PUC-SP).</p><br/><br/>
+                                            - Núcleo de Estudos de Processos de Insolvência (PUC-SP).</p><br /><br />
                                         <div class="d-flex justify-content-center">
                                             <a target="_blank" href="https://github.com/katerine-dev/nepiPericia"
                                                 class="btn btn-primary stretched-link"><i
@@ -329,6 +329,44 @@
                         These are just some of my projects, see what I'm working on today <a target="_blank"
                             href="https://github.com/katerine-dev">here</a>.
                     </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="mt-5 section-bg" id="contact">
+            <div class="container mb-5">
+                <div class="row">
+                    <div class="col mb-5 mt-md-0">
+                        <h2 class="pt-5 d-flex justify-content-center">How can I help you?</h2>
+                        <p class="d-flex justify-content-center"> Please feel free to contact</p>
+                        <h3 class="d-flex justify-content-center">Contact form</h3>
+                        <div class="row">
+                            <div class="card p-3 h-100 shadow border-0 contact">
+                                <form class="row g-2">
+                                    <div class="col-md-6">
+                                        <label for="name" class="form-label">Who are you?</label>
+                                        <input type="text" class="form-control" id="name" name="name">
+                                    </div>
+    
+                                    <div class="col-md-6">
+                                        <label for="email" class="form-label">Email:</label>
+                                        <input type="email" class="form-control" id="email" name="email">
+                                    </div>
+    
+                                    <div class="col-12">
+                                        <label for="message" class="form-label">Message:</label>
+                                        <textarea type="text" class="form-control" id="message" rows="10"
+                                            placeholder="Type your message"></textarea>
+                                    </div>
+    
+                                    <div class="col-12 d-flex justify-content-center mt-4">
+                                        <button type="submit" class="btn btn-primary">Send</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
