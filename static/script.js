@@ -43,3 +43,28 @@ animeScroll();
 window.addEventListener("scroll", () => {
     animeScroll();
 })
+
+// ativar o carregamento do botão enviar
+
+const btnEnviar = document.querySelector("#btn-enviar");
+const btnEnviarLoading = document.querySelector("#btn-enviar-loading");
+
+btnEnviar.addEventListener("click", () => {
+    const nameValue = document.getElementById("name").value;
+    const emailValue = document.getElementById("email").value;
+    const messageValue = document.getElementById("message").value;
+
+    // Verifica se todos os campos necessários estão preenchidos
+    if (nameValue && emailValue && messageValue) {
+        btnEnviarLoading.style.display = "block";
+        btnEnviar.style.display = "none";
+    } else {
+        alert("Fill in all required fields.");
+    }
+});
+
+// Ocultar alerta
+setTimeout(() => {
+    document.querySelector("#alerta").style.display = "none";
+
+}, 5000)

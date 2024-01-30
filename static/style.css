@@ -328,3 +328,14 @@ ul-interests, .ul-edu {
         width: 90%;
     }
 }
+
+#btn-enviar-loading{
+    display: none;
+}
+
+#alerta {
+    position: fixed;
+    z-index: 10;
+    top: 30px;
+    right: 30px;
+}
