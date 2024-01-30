@@ -329,6 +329,9 @@ ul-interests, .ul-edu {
     }
 }
 
+
+/* enviando email */
+
 #btn-enviar-loading{
     display: none;
 }
@@ -339,3 +342,8 @@ ul-interests, .ul-edu {
     top: 30px;
     right: 30px;
 }
+
+/* lista de skills */
+li::marker {
+    color: #08D9D6;
+  }
