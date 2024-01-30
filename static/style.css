@@ -347,3 +347,23 @@ ul-interests, .ul-edu {
 li::marker {
     color: #08D9D6;
   }
+
+#footer{
+    padding: 15px;
+    color:#808080;
+    font-size: 12px;
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    width: 300px;
+    z-index: 9999;
+    transition: .3s;
+}
+
+@media (max-width: 1012px) {
+    #footer{
+        position: static;
+        width: auto;
+        padding: 20px 15px;
+    }
+}
