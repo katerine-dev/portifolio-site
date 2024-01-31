@@ -65,6 +65,10 @@ btnEnviar.addEventListener("click", () => {
 
 // Ocultar alerta
 setTimeout(() => {
-    document.querySelector("#alerta").style.display = "none";
+    const alertaElement = document.querySelector("#alerta");
+    if (alertaElement){
+        alertaElement.style.display = "none";
+    }
+    
 
 }, 5000)
