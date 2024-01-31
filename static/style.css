@@ -90,6 +90,7 @@ html, body{
 }
 /* home */
 section#home{
+    background: transparent url("./img/3d-abstrato.jpg") no-repeat scroll 0% 0% / cover;
     background-image: url("./img/3d-abstrato.jpg");
     background-repeat: no-repeat;
     background-size: cover;
