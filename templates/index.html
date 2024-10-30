@@ -28,9 +28,6 @@
                 <a target="_blank" href="https://github.com/katerine-dev">
                     <i class="bi bi-github"></i>
                 </a>
-                <a target="_blank" href="#">
-                    <i class="bi bi-envelope-fill"></i>
-                </a>
             </div>
         </section>
 
@@ -66,12 +63,12 @@
                         </i>
                         Projects</a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link" href="#contact">
                         <i class="bi bi-envelope" aria-hidden="true">
                         </i>
                         Contact</a>
-                </li>
+                </li> -->
             </ul>
         </nav>
     </aside>
@@ -117,8 +114,7 @@
                     <p>
                     <p>
                         My initial exposure to programming occurred in the realm of legal research, where we utilized the R language for data analysis. 
-                        This experience marked a turning point for me, sparking a newfound interest in programming. My current focus is developing full
-                         stack applications using React.js, REST, Python and SQL.
+                        This experience marked a turning point for me, sparking a newfound interest in programming. 
                     <p>
                         Outside work, I find solace in reading books, drawing, traveling, and playing with my Nintendo console. </p>
                     </p>
@@ -154,29 +150,31 @@
         <!-- SKILLS -->
         <section class="mt-5 section-bg" id="skills">
             <div class="container pb-5">
-                <h2 class="pt-5">Skills</h2>
-                <p>
-                    My first programming language was R, but today I always try to learn other languages and tools.
-                </p>
                 <div class="row mt-3 mb-3">
-                    <ul class="list-unstyled">
-                        <li>Topics I am currently studying:</li>
-                        <br>
-                        <ul>
-                            <li>R (Data analysis)</li>
-                            <li>Java</li>
-                            <li>Python</li>
-                            <li>SQL (PostgreSQL, MariaDB, mySQL)</li>
-                            <li>JavaScript</li>
-                            <li>CSS</li>
-                            <li>HTML</li>
-                            <li>CI/CD</li>
-                            <li>Fast API</li>
-                            <li>Flask</li>
-                            <li>Git</li>
-                        </ul>
-                        </li>
-                    </ul>
+                    <div class="space-y-5">
+                        <h1 class="flex items-center space-x-2 text-2xl pt-5">
+                            <div class="break-words">
+                                <span class="space-y-5">Skills</span>
+                            </div> 
+                        </h1> 
+                        <p>
+                        My first programming language was R, but today I always try to learn other languages and tools.<p>   
+                        </p>
+                        When developing projects I use different technologies and programming languages, so that the product came out as
+                        best as possible and satisfied my desires.
+                        </p> 
+                    <div class="space-y-2">
+                        <h2 class="text-lg text-[#ED4245]">Languages</h2> 
+                        <p class="text-[#5862F2]"> R, Java, Python, SQL, JavaScript, CSS e HTML</p>
+                    </div> 
+                    <div class="space-y-2">
+                        <h2 class="text-lg">Technologies</h2> 
+                        <div><strong>Frameworks:</strong> TailwindCSS, FastAPI, Flask</div>
+                        <div><strong>Development tools:</strong> Docker, Vite, React, Figma, CI/CD</div>
+                        <div><strong>Databases:</strong> PostgreSQL, MySQL, MariaDB</div>
+                        <div><strong>API development &amp; Testing:</strong>  Postman, Insomnia</div>
+                        <div><strong>VCS:</strong> Git, GitHub</div>
+                    </div>
                 </div>
                 <div class="row mt-5 mb-5 text-center">
                     <p>
@@ -221,15 +219,11 @@
                                 </div>
                                 <div class="col">
                                     <div class="card-body">
-                                        <h5 class="card-title">Testcalculadora</h5>
-                                        <h6 class="card-subtitle mb-2 text-body-secondary">Java</h6>
-                                        <p class="card-text">Este repositório contém testes automatizados end-to-end
-                                            para
-                                            uma
-                                            calculadora online,
-                                            desenvolvida utilizando Selenium WebDriver, Java, Maven e JUnit.</p>
+                                        <h5 class="card-title">Reminders</h5>
+                                        <h6 class="card-subtitle mb-2 text-body-secondary">Python</h6>
+                                        <p class="card-text">Full stack application to manage reminders (Python, FastAPI, React.js, PostegreSQL)</p>
                                         <div class="d-flex justify-content-center">
-                                            <a target="_blank" href="https://github.com/katerine-dev/TestCalculadora"
+                                            <a target="_blank" href="https://www.reminders.katerine.dev/static/index.html"
                                                 class="btn btn-primary stretched-link"><i
                                                     class="bi bi-link-45deg"></i></a>
                                         </div>
@@ -324,7 +318,7 @@
         </section>
 
         <!-- CONTACT -->
-        <section class="mt-5 section-bg" id="contact">
+        <!-- <section class="mt-5 section-bg" id="contact">
             <div class="container mb-5">
                 <div class="row">
                     <div class="col mb-5 mt-md-0">
@@ -363,9 +357,9 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
-        {% with messages = get_flashed_messages() %}
+        <!-- {% with messages = get_flashed_messages() %}
         {% if messages %}
         {% for message in messages %}
         <div id="alerta" class="alert alert-success alert-dismissible fade show" role="alert">
@@ -375,14 +369,14 @@
         </div>
         {% endfor %}
         {% endif %}
-        {% endwith %}
+        {% endwith %} -->
     </main>
 
     <!-- FOOTER -->
     <footer id="footer">
         <div class="text-center">
             <div class="text-center">
-                Copyright &copy;2024 | Made with love by Kate
+                2024 | Made with love by Kate
             </div>
         </div>
 
