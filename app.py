@@ -55,9 +55,11 @@ dotenv.load_dotenv(dotenv.find_dotenv())
 app = Flask(__name__)
 app.secret_key = 'katecode'
 
-@app.route('/')
-def home():
-    return render_template('index.html')
+@app.route('/') # uma página só 
+def index():
+    return render_template('index.html') 
+
+app = Flask(__name__, static_folder='static', template_folder='templates')
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
