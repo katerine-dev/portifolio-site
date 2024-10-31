@@ -7,9 +7,6 @@ import os
 
 dotenv.load_dotenv(dotenv.find_dotenv())
 
-app = Flask(__name__)
-app.secret_key = 'katecode'
-
 # mail_settings = {
 #     "MAIL_SERVER": "smtp.gmail.com",
 #     "MAIL_PORT": 465,
@@ -28,9 +25,6 @@ app.secret_key = 'katecode'
 #         self.email = email
 #         self.message = message
 
-@app.route('/') # uma página só 
-def index():
-    return render_template('index.html') 
 
 # @app.route('/send/email', methods=['GET', 'POST'])
 # def send():
@@ -58,5 +52,12 @@ def index():
 #         flash('Message sent successfully! Thank you for contacting me!')
 #     return redirect('/')
 
+app = Flask(__name__)
+app.secret_key = 'katecode'
+
+@app.route('/') # uma página só 
+def index():
+    return render_template('index.html') 
+
 if __name__ == '__main__':
-    app.run(debug=True) # para conseguir dar F5 
+    app.run(host='0.0.0.0', port=5000)
