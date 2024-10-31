@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: your-service-name
+    name: portifolio
     env: python
     plan: free # ou outro plano, dependendo do que precisar
     buildCommand: "pip install -r requirements.txt"
